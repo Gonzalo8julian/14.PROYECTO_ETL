@@ -3,63 +3,60 @@ from bs4 import BeautifulSoup as bs
 
 def scrap_info_hoteles(url):
     """
-    Extrae información de hoteles desde una página web mediante web scraping.
-    
+    Extrae información de los hoteles desde la página proporcionada.
+
     Parámetros:
-    - url (str): URL de la página web donde se encuentran los hoteles.
+    - url (str): URL de la página web donde se listan los hoteles.
 
     Retorna:
-    - dict: Un diccionario con la información extraída, con las claves:
+    - dict: Un diccionario con los siguientes datos:
         - "nombre_hotel": Lista de nombres de los hoteles.
-        - "descripcion": Lista de descripciones de los hoteles.
-        - "valoracion": Lista de valoraciones de los hoteles en formato float.
-    
-    Ejemplo de uso:
-    ```python
-    url_hoteles = "https://ibis.accor.com/es/destination/city/hotels-madrid-v2418.html"
-    datos_hoteles = scrap_info_hoteles(url_hoteles)
-    ```
+        - "estrellas": Lista con la clasificación en estrellas de cada hotel.
+        - "precio_noche": Lista con el precio por noche de cada hotel.
+
+    Funcionalidad:
+    - Realiza una solicitud HTTP a la URL dada.
+    - Parsea el HTML con BeautifulSoup.
+    - Encuentra los primeros 10 hoteles en la página (ajustable con `[:10]`).
+    - Extrae el nombre, número de estrellas y precio por noche de cada hotel.
+    - Devuelve un diccionario con la información recolectada.
+
+    Requisitos:
+    - Instalar `requests` y `beautifulsoup4` si no están disponibles:
+      pip install requests beautifulsoup4
     """
+    # Diccionario para almacenar los datos
     dictio_scrap = {
         "nombre_hotel": [],
-        "descripcion": [],
-        "valoracion": []
+        "estrellas": [],
+        "precio_noche": []
     }
 
-    res_hoteles = requests.get(url)
+    # Realizar la solicitud HTTP
+    res = requests.get(url)
 
-    if res_hoteles.status_code == 200:
-        sopa_hoteles = bs(res_hoteles.content, "html.parser")
+    # Verificar si la respuesta fue exitosa
+    if res.status_code == 200:
+        sopa = bs(res.content, "html.parser")
 
-        # Buscar los hoteles y manejar caso en que la lista esté vacía
-        hoteles = sopa_hoteles.find_all("li", class_="aem-GridColumn aem-GridColumn--default--3")
-        hoteles = hoteles[:9] if hoteles else []  # Evita errores de slicing si está vacío
+        # Encontrar todos los hoteles en la página (máximo 10)
+        hoteles = sopa.find_all("a", class_="title__link")[:10]
 
         for hotel in hoteles:
-            # Extraer nombre del hotel
-            nombre = hotel.find("h3")
-            nombre_hotel = nombre.get_text(strip=True) if nombre else "Sin nombre"
+            # ✅ Nombre del hotel (solo el primer texto dentro del <a>)
+            nombre_hotel = hotel.contents[0].strip() if hotel else "Sin nombre"
 
-            # Extraer descripción
-            descripcion = hotel.find("p")
-            descripcion_texto = descripcion.get_text(strip=True) if descripcion else "Sin descripción"
+            # ✅ Estrellas del hotel
+            estrellas = hotel.find("span", class_="sr-only")
+            estrellas_hotel = estrellas.get_text(strip=True) if estrellas else "Sin estrellas"
 
-            # Extraer valoración
-            valoracion = hotel.find("span", class_="cmp-teaser__rating-score")
-            valoracion_texto = valoracion.get_text(strip=True) if valoracion else "Sin valoración"
+            # ✅ Precio por noche
+            precio = hotel.find("span", class_="booking-price__number mcp-price-number")
+            precio_noche = precio.get_text(strip=True) if precio else "Sin precio"
 
-            # Limpiar y convertir la valoración a float
-            if valoracion_texto != "Sin valoración":
-                valoracion_texto = valoracion_texto.split("/")[0]  # Tomar solo el número antes de "/"
-                valoracion_texto = valoracion_texto.replace(",", ".")  # Convertir "4,7" a "4.7"
-                try:
-                    valoracion_texto = float(valoracion_texto)
-                except ValueError:
-                    valoracion_texto = "Error en conversión"
-
-            # Agregar datos al diccionario
+            # Agregar cada dato en su lista correspondiente
             dictio_scrap["nombre_hotel"].append(nombre_hotel)
-            dictio_scrap["descripcion"].append(descripcion_texto)
-            dictio_scrap["valoracion"].append(valoracion_texto)
+            dictio_scrap["estrellas"].append(estrellas_hotel)
+            dictio_scrap["precio_noche"].append(precio_noche)
 
     return dictio_scrap
