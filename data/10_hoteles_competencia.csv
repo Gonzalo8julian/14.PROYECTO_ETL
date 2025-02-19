@@ -1,11 +1,26 @@
 nombre_hotel,estrellas,precio_noche
-ibis Styles Madrid Prado,3,179
-Mercure Madrid Centro,4,172
-ibis budget Madrid Centro Lavapies,1,119
-ibis Styles Madrid Centro Maravillas,2,95
-Novotel Madrid Center,4,116
-ibis budget Madrid Calle 30,1,90
-ibis Madrid Centro las Ventas,2,97
-ibis budget Madrid Centro las Ventas,1,83
-Novotel Madrid City Las Ventas,4,99
-ibis Styles Madrid City Las Ventas,4,77
+"ibis Styles Madrid Prado
+3 Estrellas",4.7,251€
+"Mercure Madrid Centro
+4 Estrellas",4.4,Sin precio
+"ibis budget Madrid Centro Lavapies
+1 Estrellas",4.3,Sin precio
+"ibis Styles Madrid Centro Maravillas
+2 Estrellas",4.7,214€
+"ibis Madrid Centro las Ventas
+2 Estrellas",4.5,135€
+"ibis budget Madrid Centro las Ventas
+1 Estrellas",4.3,135€
+"Novotel Madrid Center
+4 Estrellas",4.6,Sin precio
+"ibis budget Madrid Calle 30
+1 Estrellas",4.4,Sin precio
+"Novotel Madrid City Las Ventas
+4 Estrellas",4.6,Sin precio
+"ibis Styles Madrid City Las Ventas
+4 Estrellas",4.6,154€
+,,
+,,
+,,
+,,
+,,
