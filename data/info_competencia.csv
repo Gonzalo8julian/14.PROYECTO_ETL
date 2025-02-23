@@ -1,11 +1,11 @@
-id_reserva,id_cliente,nombre,apellido,mail,competencia,inicio_estancia,final_estancia,id_hotel,ciudad,id,nombre_hotel,estrellas,precio_noche,fecha_reserva
-5256cc90-139b-43d2-8ec5-412495d751cf,346f2a77-33f4-4b2d-82f3-e8501e21b28d,Feliciana,Cantón,feliciana.cantón@example.com,True,2025-03-01,2025-03-02,113,Madrid,1,ibis budget Madrid Centro Lavapies,4.3,106,2025-02-19
-84fd6209-bd8d-4a92-bfe6-c68ee2c49271,346f2a77-33f4-4b2d-82f3-e8501e21b28d,Leonardo,Hierro,leonardo.hierro@example.com,True,2025-03-01,2025-03-02,194,Madrid,2,ibis Styles Madrid Centro Maravillas,4.7,114,2025-02-19
-4d65096e-5f12-4ce7-9fd6-dd20e3cf5194,443a7307-2183-4051-b0bb-26f12fc1f478,Judith,Rivas,judith.rivas@example.com,True,2025-03-01,2025-03-02,131,Madrid,8,ibis budget Madrid Calle 30,4.4,79,2025-02-19
-458029ad-cc9b-4d85-8290-fec170bcc02d,e1a34338-a0aa-4b0e-96de-55f884eeb074,Adolfo,Cuervo,adolfo.cuervo@example.com,True,2025-03-01,2025-03-02,114,Madrid,10,ibis Madrid Centro las Ventas,4.5,90,2025-02-19
-ac0fe86e-90a0-4fe6-a02e-6ea00e9a8621,2949fb90-39ab-4613-b4c1-e238bb56faf3,María Carmen,Navarro,maría carmen.navarro@example.com,True,2025-03-01,2025-03-02,103,Madrid,12,ibis budget Madrid Centro las Ventas,4.3,75,2025-02-19
-8d2d3ea2-14bb-4762-a7a4-a44e75d2d2f4,6c104070-aad0-4372-a6dc-cd38a6f7c3cf,Ricardo,Caballero,ricardo.caballero@example.com,True,2025-03-01,2025-03-02,181,Madrid,13,ibis Styles Madrid City Las Ventas,4.6,98,2025-02-19
-f4cf7cbf-7a2a-4e44-9b9d-e2c9a444ec78,b1826b3e-e9aa-4a40-b94a-09ad8e7d6507,Lázaro,Pardo,lázaro.pardo@example.com,True,2025-03-01,2025-03-02,128,Madrid,17,ibis budget Madrid Calle Alcalá,4.3,71,2025-02-19
-4e4f9542-3b51-4da1-b75e-b8c8a2018b6e,85306c06-a7f1-4fdb-807e-66b2178e93c4,Angelina,Priego,angelina.priego@example.com,True,2025-03-01,2025-03-02,186,Madrid,32,ibis Madrid Calle Alcalá,4.5,78,2025-02-19
-7acd5eae-e278-4568-9e35-638532e10b87,43ffdcc5-51b6-4eda-81f5-df2c1ed1adbe,María Belén,Escalona,maría belén.escalona@example.com,True,2025-03-01,2025-03-02,135,Madrid,47,ibis budget Madrid Vallecas,4.3,70,2025-02-19
-946c7d6c-9523-4056-bc05-4f25b7582202,de5abee1-33ee-421f-9ebd-1baaafafccf9,Rosalva,Cabañas,rosalva.cabañas@example.com,True,2025-03-01,2025-03-02,117,Madrid,79,ibis Madrid Getafe,4.4,64,2025-02-19
+id_reserva,id_cliente,nombre,apellido,mail,competencia,inicio_estancia,final_estancia,ciudad,id,nombre_hotel,valoracion,precio_noche,fecha_reserva
+5256cc90-139b-43d2-8ec5-412495d751cf,346f2a77-33f4-4b2d-82f3-e8501e21b28d,Feliciana,Cantón,feliciana.cantón@example.com,True,2025-03-01,2025-03-02,Madrid,1,ibis budget Madrid Centro Lavapies,4.3,106,2025-02-19
+84fd6209-bd8d-4a92-bfe6-c68ee2c49271,346f2a77-33f4-4b2d-82f3-e8501e21b28d,Leonardo,Hierro,leonardo.hierro@example.com,True,2025-03-01,2025-03-02,Madrid,2,ibis Styles Madrid Centro Maravillas,4.7,114,2025-02-19
+4d65096e-5f12-4ce7-9fd6-dd20e3cf5194,443a7307-2183-4051-b0bb-26f12fc1f478,Judith,Rivas,judith.rivas@example.com,True,2025-03-01,2025-03-02,Madrid,8,ibis budget Madrid Calle 30,4.4,79,2025-02-19
+458029ad-cc9b-4d85-8290-fec170bcc02d,e1a34338-a0aa-4b0e-96de-55f884eeb074,Adolfo,Cuervo,adolfo.cuervo@example.com,True,2025-03-01,2025-03-02,Madrid,10,ibis Madrid Centro las Ventas,4.5,90,2025-02-19
+ac0fe86e-90a0-4fe6-a02e-6ea00e9a8621,2949fb90-39ab-4613-b4c1-e238bb56faf3,María Carmen,Navarro,maría carmen.navarro@example.com,True,2025-03-01,2025-03-02,Madrid,12,ibis budget Madrid Centro las Ventas,4.3,75,2025-02-19
+8d2d3ea2-14bb-4762-a7a4-a44e75d2d2f4,6c104070-aad0-4372-a6dc-cd38a6f7c3cf,Ricardo,Caballero,ricardo.caballero@example.com,True,2025-03-01,2025-03-02,Madrid,13,ibis Styles Madrid City Las Ventas,4.6,98,2025-02-19
+f4cf7cbf-7a2a-4e44-9b9d-e2c9a444ec78,b1826b3e-e9aa-4a40-b94a-09ad8e7d6507,Lázaro,Pardo,lázaro.pardo@example.com,True,2025-03-01,2025-03-02,Madrid,17,ibis budget Madrid Calle Alcalá,4.3,71,2025-02-19
+4e4f9542-3b51-4da1-b75e-b8c8a2018b6e,85306c06-a7f1-4fdb-807e-66b2178e93c4,Angelina,Priego,angelina.priego@example.com,True,2025-03-01,2025-03-02,Madrid,32,ibis Madrid Calle Alcalá,4.5,78,2025-02-19
+7acd5eae-e278-4568-9e35-638532e10b87,43ffdcc5-51b6-4eda-81f5-df2c1ed1adbe,María Belén,Escalona,maría belén.escalona@example.com,True,2025-03-01,2025-03-02,Madrid,47,ibis budget Madrid Vallecas,4.3,70,2025-02-19
+946c7d6c-9523-4056-bc05-4f25b7582202,de5abee1-33ee-421f-9ebd-1baaafafccf9,Rosalva,Cabañas,rosalva.cabañas@example.com,True,2025-03-01,2025-03-02,Madrid,79,ibis Madrid Getafe,4.4,64,2025-02-19
