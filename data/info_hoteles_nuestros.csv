@@ -1,0 +1,20 @@
+id_reserva,id_cliente,nombre,apellido,mail,competencia,fecha_reserva,inicio_estancia,final_estancia,id_hotel,precio_noche,nombre_hotel,estrellas,ciudad,id
+40c4cb55-d1f5-407b-832f-4756b8ff77b4,6ec4d7d2-e382-47cc-94f6-c647577d4035,Maite,Calatayud,maite.calatayud@example.com,False,2025-02-09,2025-03-01,2025-03-02,14,119.96,Hotel Monte Verde,1.0,Madrid,3
+f2ce8df5-7844-43e1-8c0f-97ce7a208f21,aed17fe8-eb18-4f69-bf08-df1afdc339c3,Tecla,Bonet,tecla.bonet@example.com,False,2025-02-08,2025-03-01,2025-03-02,38,211.53,Hotel Brisas del Mar,5.0,Madrid,4
+57d4515a-447d-4067-afcb-9bdcf4e4e915,710a2fbb-264f-426a-aa66-f8fffd146a2d,Amílcar,Andrés,amílcar.andrés@example.com,False,2025-02-02,2025-03-01,2025-03-02,35,378.37,Hotel Camino del Sol,1.0,Madrid,5
+ccbd9fe9-5a60-4f6f-bed3-73a7158ecba7,df42ae3d-0b9b-4c06-b22e-939323833ef8,Joan,Vazquez,joan.vazquez@example.com,False,2025-02-08,2025-03-01,2025-03-02,36,85.45,Hotel Puerta del Cielo,5.0,Madrid,6
+99c3dc4f-663c-45f7-849a-ac9313f3746a,a16a9d83-6888-4947-a7ab-ed41203e347c,Chelo,Flor,chelo.flor@example.com,False,2025-02-09,2025-03-01,2025-03-02,43,309.8,Hotel Encanto Real,1.0,Madrid,7
+a5da0906-0fe5-4c30-b193-863df67a7b84,4b789497-8da4-4962-b0fa-070556648ed1,Dolores,Lobo,dolores.lobo@example.com,False,2025-02-10,2025-03-01,2025-03-02,6,434.88,Palacio del Sol,4.0,Madrid,9
+3eca014e-f122-41d7-9dd3-b984b9153d57,dbaadb0e-a0ff-436e-9b10-c697fb90b720,Noé,Lobo,noé.lobo@example.com,False,2025-02-02,2025-03-01,2025-03-02,3,216.57,Hotel Jardines del Rey,3.0,Madrid,11
+8a68fb77-8798-4902-a92d-642ea5e47083,26ca67cd-3762-4f90-9372-c5f3d49df733,Omar,Lamas,omar.lamas@example.com,False,2025-02-10,2025-03-01,2025-03-02,29,378.1,Hotel Las Estrellas,4.0,Madrid,14
+5e3de36b-3d2f-4cef-98d3-df826c56a4b1,a263c6e8-96af-4720-96f0-04cfe51116c6,Ágata,Pinedo,ágata.pinedo@example.com,False,2025-02-01,2025-03-01,2025-03-02,47,358.07,Gran Hotel Madrid,2.0,Madrid,16
+96a3727c-99fb-4ae0-a6c3-886504499ec2,7164885d-7481-40cc-9aa7-025264d00798,Javier,Mancebo,javier.mancebo@example.com,False,2025-02-12,2025-03-01,2025-03-02,27,228.02,Hotel Palacio Imperial,2.0,Madrid,19
+9880f3ea-a29d-4acd-9fe1-96df1ffa46bd,38949903-64ff-48df-a57c-b589d98cc372,Ricardo,Lobo,ricardo.lobo@example.com,False,2025-02-06,2025-03-01,2025-03-02,13,454.01,Hotel Luz de Madrid,3.0,Madrid,21
+22a3608a-1de2-40c7-8e2a-d22daf77390f,8d24ffd5-1a06-4991-8d0b-143305a376ad,Perlita,Patiño,perlita.patiño@example.com,False,2025-02-02,2025-03-01,2025-03-02,28,279.28,Hotel Encanto Real,1.0,Madrid,22
+24f9a853-2cef-4fb7-8182-d4f347c772d7,90aedc6a-5f21-4a25-9e55-b6552a657437,Pía,Barba,pía.barba@example.com,False,2025-02-03,2025-03-01,2025-03-02,40,460.67,Hotel Puerta del Cielo,5.0,Madrid,28
+728efa5a-8a5a-4e53-8b2b-349c4fcab5d9,05cc4ab5-046c-4060-accd-e2e52ad83aa5,Emiliano,Vergara,emiliano.vergara@example.com,False,2025-02-06,2025-03-01,2025-03-02,2,370.82,Hotel Luz de Madrid,3.0,Madrid,37
+166f113f-64cf-408d-b1c3-30ef155f8049,d0de4a2b-eb08-4dc6-aa8d-1efd2f007539,Ezequiel,Cuesta,ezequiel.cuesta@example.com,False,2025-02-10,2025-03-01,2025-03-02,48,314.73,Hotel Costa Azul,5.0,Madrid,39
+2af9827a-93df-4f5e-ac7d-bdda0c84ed31,a7fd5407-dcf1-477c-bda7-1da829bf2410,Úrsula,Font,úrsula.font@example.com,False,2025-02-09,2025-03-01,2025-03-02,15,147.96,Gran Hotel Madrid,5.0,Madrid,59
+55d863f5-efd2-47ee-b047-b786c056ccef,425b8a65-7ac1-4f65-8e27-b78f19558e03,Amílcar,Murillo,amílcar.murillo@example.com,False,2025-02-01,2025-03-01,2025-03-02,33,470.61,Hotel Jardines del Rey,3.0,Madrid,66
+692a26ac-4f64-4e7d-aeb9-3c0ab9225d8d,b4ec2515-0daa-466a-a6fe-ea94d90aa87c,Ángeles,Guzmán,ángeles.guzmán@example.com,False,2025-02-02,2025-03-01,2025-03-02,49,298.25,Hotel Los Almendros,5.0,Madrid,81
+fe3a68d9-f2ea-4af4-9512-5d890ed26aa2,edd27e59-3455-4923-800a-1e8fc7128346,Teo,Lloret,teo.lloret@example.com,False,2025-02-01,2025-03-01,2025-03-02,19,185.42,Hotel Camino del Sol,1.0,Madrid,114
