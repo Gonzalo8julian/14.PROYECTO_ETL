@@ -1,0 +1,30 @@
+id_hotel,nombre_hotel,competencia,valoracion,id_ciudad
+1,ibis budget Madrid Centro Lavapies,True,4.3,1
+2,ibis Styles Madrid Centro Maravillas,True,4.7,1
+8,ibis budget Madrid Calle 30,True,4.4,1
+10,ibis Madrid Centro las Ventas,True,4.5,1
+12,ibis budget Madrid Centro las Ventas,True,4.3,1
+13,ibis Styles Madrid City Las Ventas,True,4.6,1
+17,ibis budget Madrid Calle Alcalá,True,4.3,1
+32,ibis Madrid Calle Alcalá,True,4.5,1
+47,ibis budget Madrid Vallecas,True,4.3,1
+79,ibis Madrid Getafe,True,4.4,1
+3,Hotel Monte Verde,False,1.0,1
+4,Hotel Brisas del Mar,False,5.0,1
+5,Hotel Camino del Sol,False,1.0,1
+6,Hotel Puerta del Cielo,False,5.0,1
+7,Hotel Encanto Real,False,1.0,1
+9,Palacio del Sol,False,4.0,1
+11,Hotel Jardines del Rey,False,3.0,1
+14,Hotel Las Estrellas,False,4.0,1
+16,Gran Hotel Madrid,False,2.0,1
+19,Hotel Palacio Imperial,False,2.0,1
+21,Hotel Luz de Madrid,False,3.0,1
+22,Hotel Encanto Real,False,1.0,1
+28,Hotel Puerta del Cielo,False,5.0,1
+37,Hotel Luz de Madrid,False,3.0,1
+39,Hotel Costa Azul,False,5.0,1
+59,Gran Hotel Madrid,False,5.0,1
+66,Hotel Jardines del Rey,False,3.0,1
+81,Hotel Los Almendros,False,5.0,1
+114,Hotel Camino del Sol,False,1.0,1
